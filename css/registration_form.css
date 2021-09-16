@@ -1,0 +1,22 @@
+*{
+    color: black;
+}
+
+.img-fluid{
+    height: 100vh;
+    width: 100vw;
+}
+
+/* .textcen{
+    background-color: rgba(182, 182, 182, 0.527);
+    backdrop-filter: blur(3px);
+    border-radius: 20px;
+} */
+
+input{
+    width: auto;
+    background: rgba(218, 218, 218, 0.527);
+    border: 2px solid rgb(95, 95, 95);
+    border-radius: 10px;
+    outline: none;
+}

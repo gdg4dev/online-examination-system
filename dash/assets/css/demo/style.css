@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter&family=Pacifico&display=swap');
+
 /* === Import template variables === */
 .mdc-button {
   font-family: Roboto, sans-serif;
@@ -22880,8 +22882,7 @@ address p {
 
 /* Sidebar */
 .mdc-drawer {
-  background: linear-gradient(#2a1c5a, #4b3a6e);
-  background: url(../../images/sidebar/sidebar-bg.jpg);
+  background: linear-gradient(#1E6F5C, #289672);
   position: fixed;
 }
 
@@ -22899,6 +22900,8 @@ address p {
 .mdc-drawer .mdc-drawer__header .brand-logo {
   display: block;
   padding: 28px 0;
+  color: #71EFA3;
+  font-family: 'Pacifico', cursive;;
 }
 
 .mdc-drawer .mdc-drawer__content .user-info {

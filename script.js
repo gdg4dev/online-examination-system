@@ -32,3 +32,12 @@ document.addEventListener("DOMContentLoaded", function(){
     // end if innerWidth
     }); 
     // DOMContentLoaded  end
+
+var clockElement = document.getElementById('clock');
+
+function clock() {
+    var date = new Date();
+        clockElement.textContent = date.toLocaleString();        
+    }
+
+    setInterval(clock, 1000);
